@@ -26,7 +26,7 @@ const App = () => {
         </button>
 
         <button onClick={() => setTheme('dark')} className='p-2 bg-transparent text-black rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-100/10 dark:text-white transition-all duration-300' >
-          <Moon className='hover:rotate-180 transition-transform duration-500' />
+          <Moon className='hover:-rotate-180 transition-transform duration-500' />
         </button>
 
       </div>
